@@ -242,6 +242,8 @@ $display_collapse_msg = "display:inline;";
                     <a id="<?php echo attr($row['id']); ?>" title='<?php echo $url; ?>' onclick='top.restoreSession()'><?php echo text(basename($row['url'])); ?></a>
                 </td>
                 <td><?php echo text($row['pname']); ?> </td>
+                <td><?php echo text($row['email']); ?> </td>
+
                 <td><?php echo $note; ?> &nbsp;</td>
                 <td align="center"><?php echo ( $row['encounter_id'] ) ? text($row['encounter_id']) : ''; ?> </td>
             </tr>

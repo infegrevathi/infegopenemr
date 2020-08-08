@@ -947,7 +947,10 @@ function loadCurrentPatientFromTitle() {
     top.restoreSession();
     top.frames['RTop'].location='../patient_file/summary/demographics.php';
 }
-
+function loadCurrentPatientFromTitle1() {
+    top.restoreSession();
+    top.frames['RTop'].location='../patient_file/summary/demographics.php';
+}
  function loadCurrentGroupFromTitle(gid) {
      top.restoreSession();
      top.frames['RTop'].location='../therapy_groups/index.php?method=groupDetails&group_id=' + encodeURIComponent(gid);
