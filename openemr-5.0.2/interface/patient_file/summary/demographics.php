@@ -674,7 +674,7 @@ if (!empty($grparr['']['grp_size'])) {
   font-size: <?php echo attr($FONTSIZE); ?>pt;
 }
 #DEM .data {
-  font-size: <?php echo attr($FONTSIZE); ?>pt;
+  font-size: <?php echo attr($FONTSIZE); ?>pt;//commend
 }
 #DEM .data td {
   font-size: <?php echo attr($FONTSIZE); ?>pt;
@@ -687,7 +687,7 @@ if (!empty($grparr['']['grp_size'])) {
 <?php
 $arrOeUiSettings = array(
     'heading_title' => xl('Medical Record Dashboard'),
-    'include_patient_name' => true,
+    'include_patient_name' => true,//hi
     'expandable' => false,
     'expandable_files' => array(),//all file names need suffix _xpd
     'action' => "",//conceal, reveal, search, reset, link or back
@@ -1961,6 +1961,10 @@ $(document).ready(function(){
 });
 
 </script>
+<script>
+function myFunction() {
+  document.getElementById("text_email").value = "";
+}</script>
 
 </body>
 </html>
