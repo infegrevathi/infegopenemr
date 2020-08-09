@@ -145,8 +145,9 @@ $url = "open-emr.org/wiki/index.php/OpenEMR_".$open_emr_ver."_Users_Guide";
 <td style="margin:3px 0px 3px 0px;vertical-align:middle;">
         <div style='margin-left:10px; float:left; display:none' id="current_patient_block">
             <span class='text'><?php echo xlt('Patient'); ?>:&nbsp;</span><span class='title_bar_top' id="current_patient"><b><?php echo xlt('None'); ?></b></span>
-        </div>
-</td>
+             <span class='text'><?php echo xlt('contact_email'); ?>:&nbsp;</span><span class='title_bar_top' id="current_patient"><a href="javascript:;" onclick="parent.left_nav.loadCurrentPatientFromTitle1()" title="PID = 4"><b>revathi@gmail.com<br></b></a>
+             </span>
+            </div></td>
 <td style="margin:3px 0px 3px 0px;vertical-align:middle;" align="left">
     <table cellspacing="0" cellpadding="1" ><tr><td>
         <div style='margin-left:5px; float:left; display:none' id="past_encounter_block">
